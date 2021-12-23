@@ -1,28 +1,33 @@
 body{
-	background: black;
+	background: #ADD8E6;
 	font-family: 'Trebuchet MS', sans-serif;
 }
 #maindiv{
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-top: 50px;
+    margin-top: 50px;
 	
 }
 #topPanel{
-	box-shadow: 0 0 12px 4px;
-	color: #C8AD7E;
-	margin-top: 20px;
-	margin-bottom: 20px;
+  color: #520909;
+  margin-bottom: 20px;
+  background-color: white;
+  height: 120px;
+  position: relative;
+  top: -50px;
+  width: 100%;
 }
 #logo{
 	margin-left: 30px;
+    margin-top: 12px;
+}
+#logo:hover{
+  cursor: pointer;
 }
 ul{
     float: right;
     list-style-type: none;
     margin-top: -60px;
     margin-right: 60px;
-    color: #d4d4d4;
+    color: #8E5A5A;
     font-size: 20px;
 }
 
@@ -32,19 +37,19 @@ ul li{
 
 ul li a{
     text-decoration: none;
-    color: #d4d4d4;
+    color: #572424 ;
     padding: 20px 25px;
     border: 20px;
     transition: 0.5s ease;
 }
 
 ul li a:hover{
-    background-color: #C8AD7E;
-    color: #000;
+    background-color: #6E2121 ;
+    color: #fff;
 }
 
 #cards{
-    color: #291211;
+    color: #572424 ;
     margin-top: 590px;
     margin-bottom: 500px;
 
@@ -52,7 +57,7 @@ ul li a:hover{
 
 .heading{
     font-size: 15px;
-    color: #fff;
+    color: #572424 ;
     text-align: center;
 }
 
@@ -73,25 +78,26 @@ ul li a:hover{
 .details a{
     text-decoration: none;
     color: #fff;
-    background-color: #C8AD7E;
+    background-color: #6E2121;
     padding: 6px 12px;
     display: inline-block;
     font-size: 20px;
-    border: 1px solid #C8AD7E;
+    border: 1px solid #ADD8E6;
     transition: 0.5s ease;
     transition: 0.2s all;
+    text-align: center;
 }
 
 .details a:hover{
-    background-color: #291211;
-    color: #fff;
+    background-color: #fff;
+    color: #6E2121;
 }
 
 .details::before{
     content: "";
     width: 5px;
     height: 100%;
-    background-color: #C8AD7E;
+    background-color: #6E2121;
     position: absolute;
     left: 0;
     top: 0;
@@ -108,7 +114,8 @@ ul li a:hover{
 }
 
 .details:hover a{
-    background-color: #291211;
+    background-color: #fff;
+    color: #6E2121;
 }
 
 .slider .priv_arrow{
@@ -117,13 +124,14 @@ ul li a:hover{
     left: -30px;
     width: 30px;
     height: 30px;
-    color: #fff;
+    color: white;
     border: solid white;
-  border-width: 0px 3px 3px 0;
+  border-width: 0px 5px 5px 0;
   display: inline-block;
   padding: 3px;
   transform: rotate(-45deg);
   -webkit-transform: rotate(-225deg);
+  cursor: pointer;
 }
 
 .slider .next_arrow{
@@ -132,29 +140,30 @@ ul li a:hover{
     right: -30px;
     width: 30px;
     height: 30px;
-    color: #fff;
+    color: white;
     border: solid white;
-    border-width: 0px 3px 3px 0;
+    border-width: 0px 5px 5px 0;
   display: inline-block;
   padding: 3px;
   transform: rotate(135deg);
   -webkit-transform: rotate(315deg);
+  cursor: pointer;
 }
 
 #description{
     position: absolute;
     top: 420px;
-    right: 410px;
+    right: 500px;
     transform: translate(-50%, -50%);
 }
 
 #description h1{
-    color: beige;
+    color: #572424 ;
     font-size: 45px;
 }
 
 #description p{
-    color:beige;
+    color:black;
     font-size: 18px;
 }
 
@@ -234,6 +243,14 @@ ul li a:hover{
     80%{opacity: 1;}
     100%{opacity: 0;}
 }
-
+#bottomPanel{
+  position: relative;
+  width: 100%;
+  margin-top: 90px;
+  text-align: center;
+  background-color: white;
+  height: 400px;
+  
+}
 
 
