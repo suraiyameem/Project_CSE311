@@ -9,19 +9,21 @@ body{
   
 }
 #topPanel{
-  box-shadow: 0 0 10px;
   color: #520909;
-  margin-top: 20px;
   margin-bottom: 20px;
   background-color: white;
   height: 120px;
-  margin-left: 30px;
-  margin-right: 30px;
+  position: relative;
+  top: -50px;
+  width: 100%;
 }
 #logo{
   margin-left: 30px;
   margin-top: 12px;
 
+}
+#logo:hover{
+  cursor: pointer;
 }
 .middle{
   margin-left: 30px;
