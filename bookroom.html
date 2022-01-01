@@ -1,12 +1,9 @@
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
 
 	<meta charset="UTF-8">
-	<title>Rooms</title>
+	<title>Booking</title>
 	<link href='bookroom.css' rel='stylesheet'>
 </head>	
 <body>
@@ -19,7 +16,7 @@
 					<li><a href="#">Rooms</a></li>
 					<li><a href="#">Facilities</a></li>
 					<li><a href="#">Help</a></li>
-					<li><a href="#">Sign in</a></li>
+					<li><a href="guest_login.html">Log out</a></li>
 				</ul>
 			</div>
 		</div>
@@ -30,8 +27,11 @@
 		
 <form action="book.php" method="post">
 
-      <label for="name"><b> Name </b></label>
-      <input type="text" placeholder="Enter Your Name" name="name">
+	  <label for="room_id"><b> Room ID </b></label>
+      <input type="text" placeholder="Room ID" name="room_id">
+
+      <label for="username"><b> Name </b></label>
+      <input type="text" placeholder="Enter Your Name" name="username">
           
       <label for="email"><b> Email </b></label>
       <input type="text" placeholder="Enter Your Email" name="email">
@@ -39,8 +39,7 @@
       <label for="numofdays"><b> Number of days </b></label>
       <input type="text" placeholder="Number of days" name="numofdays">
 
-      <label for="Comment"><b> Comment </b></label>
-      <textarea name="Comment" placeholder="Any Comments: "></textarea>
+  
 
       <button class="main-btn bookinfo-btn" type="Submit">Submit</button>
 
@@ -58,3 +57,5 @@
 
 	</div>
 </body>
+
+
