@@ -1,130 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body
-{font-family: Arial, Helvetica, sans-serif;}
-form {border: 3px solid #f1f1f1;}
-
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #152238;
-  box-sizing: border-box;
-}
-
-  
- 
-/* Set a style for all buttons */
+  <head>
+    <meta charset="utf-8">
+    <title>Admin Login</title>
+    <link rel="stylesheet" type="text/css" href="guest_login_style.css"> 
+  </head>
+  <body>
+    
+<div class="login-box">
+  <h1>  Admin Login  </h1>
+  <form action="adminlogin.php" method="POST">
+  <div class="textbox">
+    <i class="fas fa-user"></i>
 
 
-button {
-  background-color: #152238;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
+    <input type="text" placeholder="Username" name="username">
+  </div>
 
-button:hover {
-  opacity: 0.8;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #cf1800;
-}
-
-/* Center the image and position the close button */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-
-}
-
-img.avatar {
-  vertical-align: middle;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-
-}
+  <div class="textbox">
+    <i class="fas fa-lock"></i>
+    <input type="password" placeholder="Password" name="password">
+  </div>
 
 
-.container {
-  padding: 16px;
-}
+ <button type="Submit" class="btn">Sign In</button>
 
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px)
- {
-    span.psw {
-       display: block;
-       float: none;
-    }
-    .cancelbtn {
-       width: 100%;
-    }
-
-}
-</style>
-</head>
-<body>
-  
-
-
-
-<h2>Admin Login</h2>
-
-
-  <form action="admin_login.html">
-
-
-    <div class="imgcontainer">
+  <p class="text-center">
+    <a href="admin_login.html">Try again?</a></p>
+    <a href="guest_login.html">Guest Login</a></p>
      
-      <img src="img_avatar.png" alt="Avatar" class="avatar">
-    </div>
-
-
-    <div class="container">
-      <label for="uname"><b> Username </b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-
-      <label for="psw"><b> Password </b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-<br> 
-
- <label>
-      <input type="checkbox" checked="checked" name="show"> Show password
-      </label> 
-      <p class="text-left">
-    <a href="#">Forgot your password?</a></p>   
+  <form>
   
-
-       <button type="submit"> Login </button>
-    </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" class="cancelbtn">Cancel
-      </button>
-   
-    </div>
-  </form>
 </div>
-
-
-</body>
+  </body>
 </html>
