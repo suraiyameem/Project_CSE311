@@ -20,9 +20,7 @@ session_start();
 
 	<body>
         <div>
-        <?php echo $_SESSION['username'];
-        ?>
-
+      
 		<div id="maindiv">
 			<div id="topPanel">
                 <a href="guest.php">

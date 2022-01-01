@@ -5,6 +5,7 @@ $con=mysqli_connect("localhost","root","");
 mysqli_select_db($con, "hotel management");
 
 $username = $_POST["username"];
+$room_id = $_POST["room_id"];
 $email = $_POST["email"];
 $numofdays = $_POST["numofdays"];
 
@@ -21,7 +22,8 @@ if($n==1){
 
 else 
 {
-    $reg = "INSERT INTO book (username, email, numofdays) VALUES ('$username','$email', '$numofdays')"; 
+    $reg = "INSERT INTO book (room_id, username, email, numofdays) VALUES ('$room_id',$username','$email','$numofdays')"; 
+
     mysqli_query($con,$reg);
     echo "Records added sucessfully";
 }
