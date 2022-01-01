@@ -17,11 +17,60 @@ body{
   top: -50px;
   width: 100%;
 }
+
+.contact-box
+{
+  width: 260px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #342415;
+}
+
+.contact-box h1
+{
+  float: center;
+   text-align: center;
+  font-size: 40px;
+  border-bottom: 6px solid #442e19;
+  margin-bottom: 50px;
+  padding: 10px 0;
+}
+
+#container 
+ {
+float: none; 
+display: block;
+     
+ width: 500px;
+ height: 350px;
+}
+#Address
+{
+  text-align: left;
+   font-size: 19px;
+   color: #442e19;
+  margin-left: : 30px;
+  padding: 9px 0;
+}
+#text
+{
+  text-align: left;
+
+   font-size: 19px;
+   color: #442e19;
+  margin-left: : 30px;
+  padding: 9px 0;
+}
+
+
 #logo{
   margin-left: 30px;
     margin-top: 12px;
 
 }
+
 
 ul{
     float: right;
