@@ -50,8 +50,8 @@ ul li a:hover{
 
 #cards{
     color: #572424 ;
-    margin-top: 590px;
-    margin-bottom: 500px;
+    margin-top: 700px;
+    margin-bottom: 180px;
 
 }
 
@@ -152,8 +152,8 @@ ul li a:hover{
 
 #description{
     position: absolute;
-    top: 420px;
-    right: 500px;
+    top: 480px;
+    right: 440px;
     transform: translate(-50%, -50%);
 }
 

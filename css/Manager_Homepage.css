@@ -22,6 +22,9 @@ body{
     margin-top: 12px;
 
 }
+#logo:hover{
+  cursor: pointer;
+}
 
 ul{
     float: right;
@@ -47,4 +50,42 @@ ul li a{
 ul li a:hover{
     background-color: #6E2121 ;
     color: #fff;
+}
+
+#mgr-pic{
+  margin-left: 190px;
+  margin-top: 100px;
+}
+#mgr-text{
+  font-size: 30px;
+  position: relative;
+  left: 750px;
+  bottom: 310px;
+  margin-left: -150px;
+  width: 30%;
+  padding: 30px;
+}
+#mgr-info{
+
+  background-color: white;
+  margin-left: 120px;
+  margin-right: 120px;
+  height: 550px;
+}
+#bottomPanel{
+  position: relative;
+  width: 100%;
+  margin-top: 90px;
+  text-align: center;
+  background-color: white;
+  height: 400px;
+  
+}
+#bottomlogo{
+  margin: 10px;
+  height: 200px;
+  margin-top:10px;
+}
+.info{
+  color: #6E2121;
 }

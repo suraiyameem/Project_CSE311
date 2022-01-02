@@ -4,8 +4,8 @@ session_start();
 $con=mysqli_connect("localhost","root","");
 mysqli_select_db($con, "hotel management");
 
-$username = $_POST["username"];
 $room_id = $_POST["room_id"];
+$username = $_POST["username"];
 $email = $_POST["email"];
 $numofdays = $_POST["numofdays"];
 
@@ -29,3 +29,4 @@ else
 }
 
 ?>
+
