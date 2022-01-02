@@ -79,3 +79,11 @@ ul li a:hover{
   height: 400px;
   
 }
+#bottomlogo{
+  margin: 10px;
+  height: 200px;
+  margin-top:10px;
+}
+.info{
+  color: #6E2121;
+}
