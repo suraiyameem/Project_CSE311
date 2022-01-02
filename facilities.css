@@ -1,0 +1,153 @@
+body{
+  background: #ADD8E6;
+  font-family: 'Trebuchet MS', sans-serif;
+  padding: 0%;
+  margin: 0%;
+}
+#maindiv{
+  margin-top: 50px;
+  
+}
+#topPanel{
+  color: #520909;
+  margin-bottom: 20px;
+  background-color: white;
+  height: 120px;
+  position: relative;
+  top: -50px;
+  width: 100%;
+}
+#logo{
+  margin-left: 30px;
+    margin-top: 12px;
+
+}
+#logo:hover{
+  cursor: pointer;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: -60px;
+    margin-right: 60px;
+    color: #8E5A5A;
+    font-size: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #572424 ;
+    padding: 20px 25px;
+    border: 20px;
+    transition: 0.5s ease;
+}
+
+ul li a:hover{
+    background-color: #6E2121 ;
+    color: #fff;
+}
+#bottomPanel{
+  position: relative;
+  width: 100%;
+  margin-top: -300px;
+  text-align: center;
+  background-color: white;
+  height: 400px;
+  
+}
+#bottomlogo{
+  margin: 10px;
+  height: 200px;
+  margin-top:10px;
+}
+.info{
+  color: #6E2121;
+}
+#lobby-text{
+  width: 30%;
+  text-align: left;
+  position: relative;
+  left: 810px;
+  bottom: 350px;
+  font-size: 20px;
+}
+#lobby{
+  margin-top: 50px;
+  background-color: white;
+  width: 100%;
+  height: 440px;
+  margin-bottom: 200px;
+}
+#lobby-pic{
+  margin-left: 80px;
+  margin-top: 30px;
+  padding: 3px;
+}
+h2{
+  text-align: center;
+  color: #520909;
+}
+#pool-text{
+  width: 38%;
+  position: relative;
+  bottom: 580px;
+  font-size: 20px;
+  left: 120px;
+  
+}
+#pool-pic{
+  position: relative;
+  left: 750px;
+  bottom: 170px;
+  padding: 3px;
+}
+#swimming_pool{
+  margin-top: 220px;
+}
+#dining-text{
+  width: 30%;
+  text-align: left;
+  position: relative;
+  left: 830px;
+  bottom: 380px;
+  font-size: 20px;
+}
+#dining_hall{
+  margin-top: 50px;
+  background-color: white;
+  width: 100%;
+  height: 440px;
+  margin-bottom: 200px;
+  position: relative;
+  bottom: 550px;
+}
+#dining-pic{
+  margin-left: 80px;
+  margin-top: 30px;
+  padding: 3px;
+  width:650px;
+}
+#hall-text{
+  width: 38%;
+  position: relative;
+  bottom: 740px;
+  font-size: 20px;
+  left: 120px;
+  
+}
+#hall-pic{
+  position: relative;
+  left: 770px;
+  bottom: 720px;
+  padding: 3px;
+  margin-bottom: -400px;
+  width:680px;
+}
+#conference-hall{
+ margin-bottom: -900px;
+}
