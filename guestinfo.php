@@ -3,25 +3,22 @@
 $con= mysqli_connect("localhost", "root", "");
 mysqli_select_db($con, "hotel management");
 
-$sql="SELECT * FROM rooms";
+$sql="SELECT * FROM users";
 
 if($result = mysqli_query($con, $sql)){
 
 if(mysqli_num_rows($result) > 0){
+	echo "Guest Information";
 echo "<table>";
 echo "<tr>";
-echo "<th> Room Id</th>";
-echo "<th> Price  </th>";
-echo "<th> Availability </th>";
-echo "<th> Description </th>";
+echo "<th> Name </th>";
+echo "<th> Username </th>";
 echo "</tr>";
 
 while($row = mysqli_fetch_array($result)){
 echo "<tr>";
-echo "<td>" . $row['room_id'] . "</td>";
-echo "<td>" . $row['price'] . "</td>";
-echo "<td>" . $row['availability'] . "</td>";
-echo "<td>" . $row['description'] . "</td>";
+echo "<td>" . $row['Name'] . "</td>";
+echo "<td>" . $row['username'] . "</td>";
 echo "</tr>";
 }
 echo "</table>";

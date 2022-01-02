@@ -12,12 +12,11 @@
 			<img id="logo" src= "logo.png" width="300px" height="96px" alt="Photo Unavailable">
 			<div id="buttons">
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Rooms</a></li>
-					<li><a href="#">Facilities</a></li>
-					<li><a href="#">Help</a></li>
+					<li><a href="Guest.html">Home</a></li>
+					<li><a href="Rooms.html">Rooms</a></li>
+					<li><a href="facilities_page.html">Facilities</a></li>
+					<li><a href="help_page.html">Help</a></li>
 					<li><a href="guest_login.html">Log out</a></li>
-				</ul>
 			</div>
 		</div>
 
@@ -29,16 +28,28 @@
 <form action="book.php" method="post">
 
 	  <label for="room_id"><b> Room Number </b></label>
-      <input type="Number" placeholder="Room Number" name="room_id">
+	  <div class="textbox">
+	  	<input type="Number" placeholder="Room Number" name="room_id">
+	  </div>
+      
 
       <label for="username"><b> Name </b></label>
-      <input type="text" placeholder="Enter Your Name" name="username">
+      <div class="textbox">
+	  	<input type="text" placeholder="Enter Your Name" name="username">
+	  </div>
+      
           
       <label for="email"><b> Email </b></label>
-      <input type="text" placeholder="Enter Your Email" name="email">
+      <div class="textbox">
+	  	<input type="text" placeholder="Enter Your Email" name="email">
+	  </div>
+      
 
       <label for="numofdays"><b> Number of days </b></label>
-      <input type="Number" placeholder="Number of days" name="numofdays">
+      <div class="textbox">
+	  	<input type="Number" placeholder="Number of days" name="numofdays">
+	  </div>
+      
 
   
 

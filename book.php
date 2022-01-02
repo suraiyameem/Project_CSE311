@@ -22,10 +22,10 @@ if($n==1){
 
 else 
 {
-    $reg = "INSERT INTO book (room_id, username, email, numofdays) VALUES ('$room_id',$username','$email','$numofdays')"; 
+    $reg = "INSERT INTO book (room_id, username, email, numofdays) VALUES ('$room_id','$username','$email','$numofdays')"; 
 
     mysqli_query($con,$reg);
-    echo "Records added sucessfully";
+    echo "Your booking was successful!";
 }
 
 ?>

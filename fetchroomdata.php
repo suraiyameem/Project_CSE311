@@ -10,14 +10,16 @@ if($result = mysqli_query($con, $sql)){
 if(mysqli_num_rows($result) > 0){
 echo "<table>";
 echo "<tr>";
-echo "<th> Room Number   </th>";
-echo "<th> Guest Username  </th>";
+echo "<th> Booking ID </th>";
+echo "<th> Room No  </th>";
+echo "<th> Guest Username </th>";
 echo "<th> Email </th>";
 echo "<th> Number of Days </th>";
 echo "</tr>";
 
 while($row = mysqli_fetch_array($result)){
 echo "<tr>";
+echo "<td>" . $row['book_id'] . "</td>";
 echo "<td>" . $row['room_id'] . "</td>";
 echo "<td>" . $row['username'] . "</td>";
 echo "<td>" . $row['email'] . "</td>";

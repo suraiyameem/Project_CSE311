@@ -11,11 +11,12 @@ $n= mysqli_num_rows($result);
 
 if ($n == 1) {
 	$_SESSION['username'] = $name;
+	$_SESSION['password'] = $password;
 
-	header('location: guest.php');
+	header('location: Guest.html');
 }
 else {
-	header('location: guest_login.html');
+	header('location: failed_login.html');
 	echo "Invalid";
 }
 ?>
